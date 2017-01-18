@@ -1,0 +1,204 @@
+@import 'partials/normalize.scss';
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
+
+.main {
+  max-width: 1800px;
+  height: 951px;
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  left: 316px;
+  top: 56px;
+  width: 41px;
+  height: 41px;
+}
+
+.take {
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1;
+  position: absolute;
+  left: 366px;
+  top: 40px;
+}
+
+.main h1 {
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 312.937px;
+  top: 441.707px;
+}
+
+.main h1 + p {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 1.846;
+  text-align: left;
+  position: absolute;
+  left: 313.938px;
+  top: 554.057px;
+  width: 438px;
+  height: 37px;
+}
+
+
+.perfect {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0,-1,1,0,0,0);
+  -webkit-transform: matrix( 0,-1,1,0,0,0);
+  -ms-transform: matrix( 0,-1,1,0,0,0);
+  position: absolute;
+  left: 51px;
+  top: 572px;
+  width: 43px;
+  height: 9px;
+}
+
+.app {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0,-1,1,0,0,0);
+  -webkit-transform: matrix( 0,-1,1,0,0,0);
+  -ms-transform: matrix( 0,-1,1,0,0,0);
+  position: absolute;
+  left: 36px;
+  top: 492px;
+  width: 72px;
+  height: 9px;
+ }
+
+.telephone {
+ position: absolute;
+ left: 813px;
+ top: 260px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin:0 285px 0 315px;
+}
+
+.column1-2 h1 {
+ font-size: 35px;
+ font-family: 'Open Sans', sans-serif;
+ color: rgb(34, 38, 38);
+ line-height: 0.686;
+ font-weight: 300;
+
+}
+
+.column1-2 {
+  width: 570px;
+  float:left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(149, 149, 149);
+  line-height: 1.714;
+  margin-top: 100px;
+}
+
+div.column1-2 + div {
+  margin: 239px 0 0 30px;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+.menu {
+  font-size: 0;
+  margin: 82px 0 96px 315px;
+  width: 1485px;
+  height: 556px;
+}
+
+.menu div {
+  display: inline-block;
+  width: 400px;
+  height: 278px;
+}
+
+.menu h1 {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 35px;
+  top: 1539.828px;
+
+}
+
+.menu div:nth-child(1) {
+  background-color: rgb(245,152,157);
+}
+
+.menu div:nth-child(2) {
+  background-color: rgb(97,95,125);
+}
+
+.menu div:nth-child(3) {
+  background-image: url(../i/menu3.png);
+}
+
+.menu div:nth-child(4) {
+  width: 285px;
+  height: 278px;
+  background-color: rgb(189,140,191);
+}
+
+.menu div:nth-child(5) {
+  width: 800px;
+  height: 278px;
+  background-image: url(../i/menu5.png);
+}
+
+.menu div:nth-child(6) {
+   background-color: rgb(130,202,156);
+}
+
+.menu div:nth-child(7) {
+  background-image: url(../i/menu7.png);
+  width: 285px;
+  height: 278px;
+}
