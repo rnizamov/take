@@ -31,7 +31,7 @@ html {
   top: 40px;
 }
 
-section h1 {
+.main h1 {
   font-size: 60px;
   color: rgb(255, 255, 255);
   font-weight: 300;
@@ -62,7 +62,7 @@ section h1 {
 }
 
 .wrapper {
-  width: 1170px;
+  width: 1200px;
   margin:0 285px 0 315px;
 }
 
@@ -72,7 +72,6 @@ section.wrapper h1 {
  line-height: 0.686;
  font-weight: 300;
  margin-bottom: 40px;
- position: static;
 }
 
 .column1-2 {
@@ -82,11 +81,11 @@ section.wrapper h1 {
   font-size: 14px;
   color: rgb(149, 149, 149);
   line-height: 1.714;
-  margin-top: 100px;
+  margin: 100px 30px 0 0;
 }
 
 div.column1-2 + div {
-  margin: 257px 0 0 30px;
+  margin-top:257px ;
 }
 
 /* clearfix */
@@ -156,8 +155,6 @@ div.column1-2 + div {
   line-height: 1.2;
   text-align: left;
   margin: 50px 0 0 40px;
-  position: static;
-
 }
 
 .menu p {
@@ -192,16 +189,12 @@ div.column1-2 + div {
   margin: 0  30px 0 0;
 }
 
-div.clearfix div:nth-child(4) {
-  margin-right:0;
-}
-
 div.column1-4 h1 {
   font-size: 13px;
   color: rgb(103, 103, 109);
   line-height: 1.846;
   margin-bottom: 20px;
-  position: static;
+
 }
 
 .column1-4 p {
@@ -217,8 +210,15 @@ div.column1-4 h1 {
 }
 
 .car h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 312.937px;
   top: 398px;
-}
+ }
 
 .car p {
   font-size: 13px;
@@ -245,19 +245,152 @@ div.column1-4 h1 {
 }
 
 .green {
+  border : 1px solid rgb(130, 202, 156);
+  border-left: none;
+  border-right: none;
   background-color: rgb(130, 202, 156);
-  height: 540px;
+  width: 1800px;
   position: relative;
+}
+
+.green div.wrapper {
+  margin-top: 100px ;
 }
 
 .green h1 {
   font-size: 35px;
   color: rgb(255, 255, 255);
-  position: absolute;
-
+  line-height: 0.686;
+  font-weight: 300;
 }
 
 .column1-3 {
   float: left;
+  margin: 31px 30px 169px 0;
   width: 370px ;
+}
+
+.column1-3 h1 {
+   font-size: 13px;
+   color: rgb(255, 255, 255);
+   line-height: 1.846;
+}
+
+.column1-3 p {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  margin-top: 20px;
+}
+
+.seven {
+  background-color: rgb(246, 247, 250);
+  width: 1800px;
+  border-top:1px solid  rgb(246, 247, 250);
+  border-bottom:1px solid  rgb(246, 247, 250);
+}
+
+.seven div.wrapper {
+  margin-top: 100px ;
+  margin-bottom: 145px;
+}
+
+.legacy {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(225, 225, 225);
+  width: 77px;
+  height: 21px;
+  padding: 1px 0 2px 0;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.most_popular{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(189, 140, 191);
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  width: 110px;
+  height: 21px;
+  padding: 1px 0 2px 0;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.seven h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(46, 59, 78);
+  line-height: 1.333;
+  text-align: left;
+  margin: 16px 0 0 60px;
+}
+
+.seven p {
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 23px;
+  width: 450px;
+}
+
+.buy {
+  display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 18px;
+  border-radius: 3px;
+  background-color: rgb(130, 202, 156);
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.69;
+  text-align: center;
+  width: 151px;
+  height: 31px;
+  padding:12px 0 4px 0;
+
+}
+
+.seven .column1-2 {
+  width: 570px;
+  float:left;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(149, 149, 149);
+  line-height: 1.714;
+  margin:0 30px 0 0;
+}
+
+.store img {
+  width: 24px;
+  height: 24px;
+  margin-left: 60px;
+  margin-bottom: 56px;
+}
+
+.store img:nth-child(2){
+  margin-left: 14px;
+}
+
+.seven div.column1-2:nth-child(2) {
+  background-color: rgb(255,255,255);
+  -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.18);
+  box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.18);
+
 }
